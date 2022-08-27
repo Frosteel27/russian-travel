@@ -1,0 +1,10 @@
+.cover__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover__link:hover .cover__image {
+    opacity: .6;
+}

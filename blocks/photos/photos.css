@@ -1,0 +1,22 @@
+.photos {
+    padding: 92px 0 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .photos {
+        padding: 92px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photos {
+        padding: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .photos {
+        padding: 64px 16px 0;
+    }
+}

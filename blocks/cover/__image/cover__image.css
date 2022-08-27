@@ -1,0 +1,6 @@
+.cover__image {
+    width: 100%;
+    max-width: 1600px;
+    opacity: .8;
+    transition: all .2s;
+}
