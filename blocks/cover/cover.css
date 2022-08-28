@@ -5,9 +5,15 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 0;
-    padding-top: 62.5%;
-    position: relative;
+    height: calc((100vw - 96px) * 0.625);
+
+    
+}
+
+@media screen and (max-width: 1024px){
+    .cover {
+        height: calc(100vw * 0.625);
+    }
 }
 
 @media screen and (max-width: 768px) {

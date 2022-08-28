@@ -11,5 +11,6 @@
     .lead__subtitle {
         font-size: 16px;
         padding: 0 16px;
+        margin-top: 16px;
     }
 }
