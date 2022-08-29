@@ -2,18 +2,10 @@
     margin: 92px 0 0;
     padding: 0;
     background-image: url(../../images/cover.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    min-height: calc((100vw - 96px) * 0.625);
-
-    
-}
-
-@media screen and (max-width: 1024px){
-    .cover {
-        min-height: calc(100vw * 0.625);
-    }
+    background-position: top center;
+    width: 100%;   
 }
 
 @media screen and (max-width: 768px) {
